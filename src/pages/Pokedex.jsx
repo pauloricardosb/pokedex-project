@@ -4,7 +4,7 @@ import PokemonCard from '../components/PokemonCard';
 const Pokedex = () => {
   const [allPokemons, setAllPokemons] = useState([]);
   const [loadMore, setLoadMore] = useState(
-    'https://pokeapi.co/api/v2/pokemon?limit=10',
+    'https://pokeapi.co/api/v2/pokemon?limit=15',
   );
 
   const getAllPokemons = async () => {
